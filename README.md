@@ -30,3 +30,4 @@ They can then create symlinks for the dotfiles as described earlier. Here’s a 
         ln -s ~/Documents/GitRepos/dotfiles/fastfetch ~/.config/fastfetch
         ln -s ~/Documents/GitRepos/dotfiles/kitty ~/.config/kitty
         ln -s ~/Documents/GitRepos/dotfiles/starship.toml ~/.config/starship.toml
+![image](https://github.com/user-attachments/assets/a84fbf03-9c5b-44fb-bde2-3318662e7ab4)
