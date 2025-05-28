@@ -1,0 +1,22 @@
+# ~/.config/starship.toml
+
+# The prompt format
+format = "[$all]($style) "
+
+# Add a newline before the prompt
+add_newline = true
+
+# Character module configuration
+[character]
+# The character to display
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+
+# Git branch module configuration
+[git_branch]
+symbol = "🌿 "
+style = "bold yellow"
+
+# Git status module configuration
+[git_status]
+style = "bold red"
