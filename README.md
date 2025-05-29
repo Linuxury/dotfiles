@@ -17,11 +17,11 @@ or, if using SSH:
 
 Setting Up Symlinks:
 
-After cloning, they should navigate to the cloned dotfiles directory:
+After cloning, navigate to the cloned dotfiles directory:
 
     cd dotfiles
 
-They can then create symlinks for the dotfiles as described earlier. Here’s a quick summary of the commands they would need to run:
+Then create symlinks for the dotfiles as described earlier. Here’s a quick summary of the commands they would need to run:
 
         # Create symlinks for each application
         ln -s ~/Documents/GitRepos/dotfiles/MangoHud ~/.config/MangoHud
