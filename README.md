@@ -2,7 +2,7 @@
 My Linux config files.
 
 Open a terminal.</br>
-Navigate to the desired directory where they want to store the dotfiles (e.g., ~/Documents/GitRepos):
+Navigate to the desired directory where you might want to store the dotfiles (e.g., ~/Documents/GitRepos):
 
     mkdir -p ~/Documents/GitRepos
     cd ~/Documents/GitRepos
