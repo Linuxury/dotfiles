@@ -72,7 +72,7 @@
     "type": "custom",
     "key": "󰌢 SYSTEM",
     "keyColor": "green",
-    "format": "RYZEN9-5900X"  // Your custom text here
+    "type": "host"
 },
 
     {
