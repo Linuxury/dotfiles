@@ -198,10 +198,11 @@ paru_arguments = "--nodevel"
 # max_concurrency = 5
 
 # Additional git repositories to pull
-# repos = [
+ repos = [
+     "~/Documents/.dotfile"
 #     "~/src/*/",
 #     "~/.config/something"
-# ]
+ ]
 
 # Don't pull the predefined git repos
  pull_predefined = false
