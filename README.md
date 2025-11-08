@@ -2,7 +2,7 @@
 My Linux config files.
 
 Open a terminal.
-Clone the repository directly into your Documents directory as a hidden folder named `.dotfiles`:
+Clone the repository directly into your Documents directory as a hidden folder named `.dotfiles`
 
     mkdir -p ~/Documents/.dotfile/
     sudo git clone https://github.com/linuxury/dotfiles.git ~/Documents/.dotfile
