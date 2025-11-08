@@ -22,7 +22,6 @@ After cloning, create symlinks for the dotfiles. Here’s a quick summary of the
     ln -s ~/Documents/.dotfile/starship ~/.config/starship
     ln -s ~/Documents/.dotfile/topgrade.d ~/.config/topgrade.d
     ln -s ~/Documents/.dotfile/zed ~/.config/zed
-    rsync -a --ignore-existing ~/Documents/.dotfile/Pictures ~/
     ln -s ~/Documents/.dotfile/nano/.nanorc ~/.nanorc
     sudo ln -s ~/Documents/.dotfile/nano/.nanorc /root/.nanorc
-        
+    rsync -a --ignore-existing ~/Documents/.dotfile/Pictures ~/   
