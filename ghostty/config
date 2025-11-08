@@ -1,0 +1,49 @@
+# Ghostty configuration file
+# Path: ~/.config/ghostty/config
+
+# Theme
+theme = Subliminal
+background-opacity = 0.8
+background-blur-radius = 20
+
+# Font
+font-family = FiraCode Nerd Font Propo
+font-size = 10
+
+# Shell Integration
+shell-integration = fish
+shell-integration-features = no-cursor
+
+# Keybindings
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+keybind = control+shift+d=new_split:down
+keybind = control+shift+up=goto_split:up
+keybind = control+shift+down=goto_split:down
+keybind = control+shift+left=goto_split:left
+keybind = control+shift+right=goto_split:right
+keybind = ctrl+shift+r=reload_config
+
+# Cursor Style
+cursor-style = block
+cursor-style-blink = true
+
+# Shader
+custom-shader-animation = true
+
+#custom-shader = shader/cursor_blaze.glsl
+#custom-shader = shader/cursor_blaze_no_trail.glsl
+custom-shader = shader/cursor_blaze_tapered.glsl
+#custom-shader = shader/cursor_smear.glsl
+custom-shader = shader/cursor_smear_fade.glsl
+#custom-shader = shader/manga_slash.glsl
+
+# Window Size and Padding
+window-width = 130
+window-height = 40
+window-padding-x = 15
+window-padding-y = 15
+window-decoration = auto
+
+# Closing Confirmation
+confirm-close-surface = false
