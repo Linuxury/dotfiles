@@ -2,27 +2,27 @@
 My Linux config files.
 
 Open a terminal.
-Clone the repository directly into your home directory as a hidden folder named `.dotfiles`:
+Clone the repository directly into your Documents directory as a hidden folder named `.dotfiles`:
 
-    mkdir -p ~/.dotfiles
-    sudo git clone https://github.com/linuxury/dotfiles.git ~/.dotfiles
+    mkdir -p ~/Documents/.dotfile/
+    sudo git clone https://github.com/linuxury/dotfiles.git ~/Documents/.dotfile
 
 Setting Up Symlinks:
 
 After cloning, create symlinks for the dotfiles. Here’s a quick summary of the commands you would need to run:
 
     # Create symlinks for each application
-    ln -s ~/.dotfiles/dunst ~/.config/dunst
-    ln -s ~/.dotfiles/fastfetch ~/.config/fastfetch
-    ln -s ~/.dotfiles/fish ~/.config/fish
-    ln -s ~/.dotfiles/ghostty ~/.config/ghostty
-    ln -s ~/.dotfiles/helix ~/.config/helix
-    ln -s ~/.dotfiles/Kvantum ~/.config/Kvantum
-    ln -s ~/.dotfiles/MangoHud ~/.config/MangoHud
-    ln -s ~/.dotfiles/starship ~/.config/starship
-    ln -s ~/.dotfiles/topgrade.d ~/.config/topgrade.d
-    ln -s ~/.dotfiles/zed ~/.config/zed
-    rsync -a --ignore-existing ~/.dotfiles/Pictures ~/
-    ln -s ~/.dotfiles/nano/.nanorc ~/.nanorc
-    sudo ln -s ~/.dotfiles/nano/.nanorc /root/.nanorc
+    ln -s ~/Documents/.dotfile/dunst ~/.config/dunst
+    ln -s ~/Documents/.dotfile/fastfetch ~/.config/fastfetch
+    ln -s ~/Documents/.dotfile/fish ~/.config/fish
+    ln -s ~/Documents/.dotfile/ghostty ~/.config/ghostty
+    ln -s ~/Documents/.dotfile/helix ~/.config/helix
+    ln -s ~/Documents/.dotfile/Kvantum ~/.config/Kvantum
+    ln -s ~/Documents/.dotfile/MangoHud ~/.config/MangoHud
+    ln -s ~/Documents/.dotfile/starship ~/.config/starship
+    ln -s ~/Documents/.dotfile/topgrade.d ~/.config/topgrade.d
+    ln -s ~/Documents/.dotfile/zed ~/.config/zed
+    rsync -a --ignore-existing ~/Documents/.dotfile/Pictures ~/
+    ln -s ~/Documents/.dotfile/nano/.nanorc ~/.nanorc
+    sudo ln -s ~/Documents/.dotfile/nano/.nanorc /root/.nanorc
         
