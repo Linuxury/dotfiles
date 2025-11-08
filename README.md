@@ -26,6 +26,3 @@ After cloning, create symlinks for the dotfiles. Here’s a quick summary of the
     ln -s ~/.dotfiles/nano/.nanorc ~/.nanorc
     sudo ln -s ~/.dotfiles/nano/.nanorc /root/.nanorc
         
-<img width="1149" height="785" alt="image" src="https://github.com/user-attachments/assets/8f4be9bd-894c-4994-ae11-25d353dc73c4" />
-
-# test
