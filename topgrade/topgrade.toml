@@ -96,6 +96,7 @@ notify_each_step = true
 # "Python Environment" = "~/dev/.env/bin/pip install -i https://pypi.python.org/simple -U --upgrade-strategy eager jupyter"
 # "Custom command using interactive shell (unix)" = "-i vim_upgrade"
 
+# Github Dotfiles Updater 
 # "Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
 "Update Dotfiles" = """
     set -l dir "$HOME/Documents/Dotfiles"
