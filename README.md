@@ -31,3 +31,5 @@ After cloning, create symlinks for the dotfiles. Here’s a quick summary of the
     ln -s ~/Documents/Dotfiles/nano/.nanorc ~/.nanorc
     sudo ln -s ~/Documents/Dotfiles/nano/.nanorc /root/.nanorc
     rsync -a --ignore-existing ~/Documents/Dotfiles/Pictures ~/   
+
+<img width="1190" height="894" alt="image" src="https://github.com/user-attachments/assets/51699038-8f7f-4c6d-9380-a2b4cc05b4f3" />
