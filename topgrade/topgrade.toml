@@ -326,3 +326,6 @@ use_sudo = true
 # extensions should be updated for.
 # (default: this won't be set by default)
 # profile = ""
+
+[[git]]
+path = "~/Documents/Dotfiles"
