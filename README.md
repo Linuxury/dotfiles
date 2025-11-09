@@ -7,6 +7,12 @@ Clone the repository directly into your Documents directory as a hidden folder n
     mkdir -p ~/Documents/Dotfiles/
     sudo git clone https://github.com/linuxury/dotfiles.git ~/Documents/Dotfiles
 
+### Permissions
+
+After cloning, it's crucial to ensure that your user owns the `Dotfiles` directory to prevent permission errors. Run the following command, replacing `your_username` with your actual username:
+
+    sudo chown -R your_username:your_username ~/Documents/Dotfiles
+
 Setting Up Symlinks:
 
 After cloning, create symlinks for the dotfiles. Here’s a quick summary of the commands you would need to run:
