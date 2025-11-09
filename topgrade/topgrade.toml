@@ -203,9 +203,10 @@ notify_each_step = true
 #     "~/.config/something"
 # ]
 
-repos = [
-    "~/Documents/Dotfiles"
-]
+# repos = [ "~/Documents/Dotfiles" ]
+
+[commands]
+"Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
 
 # Don't pull the predefined git repos
  pull_predefined = false
