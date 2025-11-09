@@ -95,8 +95,23 @@ notify_each_step = true
 [commands]
 # "Python Environment" = "~/dev/.env/bin/pip install -i https://pypi.python.org/simple -U --upgrade-strategy eager jupyter"
 # "Custom command using interactive shell (unix)" = "-i vim_upgrade"
-"Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
 
+# "Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
+"Update Dotfiles" = """
+    set -l dir "$HOME/Documents/Dotfiles"
+    if test -d "$dir/.git"
+        cd "$dir"
+        set -l behind (git rev-list --count HEAD..@{u} 2>/dev/null)
+        if test "$behind" -gt 0
+            echo "Updating Dotfiles ($behind commits behind)..."
+            git pull --quiet --ff-only
+        else
+            echo "Dotfiles: already up to date"
+        end
+    else
+        echo "Dotfiles: not a Git repo"
+    end
+"""
 
 [python]
 # enable_pip_review = true                         ###disabled by default
