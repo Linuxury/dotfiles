@@ -95,6 +95,7 @@ notify_each_step = true
 [commands]
 # "Python Environment" = "~/dev/.env/bin/pip install -i https://pypi.python.org/simple -U --upgrade-strategy eager jupyter"
 # "Custom command using interactive shell (unix)" = "-i vim_upgrade"
+"Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
 
 
 [python]
@@ -203,9 +204,8 @@ notify_each_step = true
 #     "~/.config/something"
 # ]
 
-# repos = [ "~/Documents/Dotfiles" ]
+repos = [ "~/Documents/Dotfiles" ]
 
-"Force update Dotfiles" = "cd ~/Documents/Dotfiles && git pull --quiet --ff-only || echo 'Dotfiles: git pull failed (not a repo or no remote)'"
 
 # Don't pull the predefined git repos
  pull_predefined = false
