@@ -21,12 +21,11 @@
     show_indicators = yes
 
     ### Font
-    font = FiraCode Nerd Font 10
+    font = JetBrainsMono Nerd Font Propo 10
 
     ### Icons
     icon_position = left
     max_icon_size = 32
-    ### Updated icon_path to point to new directory and Adwaita fallback
     icon_path = ~/.config/dunst/icons/16/actions:~/.config/dunst/icons/16/apps:~/.config/dunst/icons/16/devices:~/.config/dunst/icons/16/mimetypes:~/.config/dunst/icons/16/panel:~/.config/dunst/icons/16/places:~/.config/dunst/icons/16/status:~/.config/dunst/icons/22/actions:~/.config/dunst/icons/22/categories:~/.config/dunst/icons/22/devices:~/.config/dunst/icons/22/emblems:~/.config/dunst/icons/22/mimetypes:~/.config/dunst/icons/22/panel:~/.config/dunst/icons/22/places:~/.config/dunst/icons/24/actions:~/.config/dunst/icons/24/animations:~/.config/dunst/icons/24/devices:~/.config/dunst/icons/24/panel:~/.config/dunst/icons/24/places:~/.config/dunst/icons/32/actions:~/.config/dunst/icons/32/categories:~/.config/dunst/icons/32/devices:~/.config/dunst/icons/32/status:~/.config/dunst/icons/scalable/apps:~/.config/dunst/icons/scalable/devices:~/.config/dunst/icons/scalable/mimetypes:~/.config/dunst/icons/scalable/places:~/.config/dunst/icons/symbolic/actions:~/.config/dunst/icons/symbolic/apps:~/.config/dunst/icons/symbolic/categories:~/.config/dunst/icons/symbolic/devices:~/.config/dunst/icons/symbolic/emblems:~/.config/dunst/icons/symbolic/emotes:~/.config/dunst/icons/symbolic/mimetypes:~/.config/dunst/icons/symbolic/places:~/.config/dunst/icons/symbolic/status
 
     ### History
