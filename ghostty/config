@@ -2,8 +2,8 @@
 # Path: ~/.config/ghostty/config
 
 # Theme
-theme = Subliminal
-background-opacity = 0.8
+# theme = Subliminal
+background-opacity = 0.95
 background-blur-radius = 20
 
 # Font
